@@ -1,0 +1,131 @@
+* {
+        margin: 0;
+            padding: 0;
+                box-sizing: border-box;
+                }
+
+                body {
+                    font-family: Arial, sans-serif;
+                        background-color: #f9f9f9;
+                            color: #333;
+                                line-height: 1.6;
+                                }
+
+                                .container {
+                                    width: 90%;
+                                        margin: 0 auto;
+                                        }
+
+                                        header {
+                                            background-color: #333;
+                                                color: #fff;
+                                                    padding: 20px 0;
+                                                        text-align: center;
+                                                        }
+
+                                                        header h1 {
+                                                            font-size: 2.5em;
+                                                                margin-bottom: 10px;
+                                                                }
+
+                                                                nav ul {
+                                                                    list-style-type: none;
+                                                                        margin-top: 10px;
+                                                                        }
+
+                                                                        nav ul li {
+                                                                            display: inline;
+                                                                                margin-right: 20px;
+                                                                                }
+
+                                                                                nav ul li a {
+                                                                                    color: #fff;
+                                                                                        text-decoration: none;
+                                                                                            font-size: 1.1em;
+                                                                                            }
+
+                                                                                            .search-bar {
+                                                                                                display: flex;
+                                                                                                    justify-content: center;
+                                                                                                        margin-top: 15px;
+                                                                                                        }
+
+                                                                                                        .search-bar input {
+                                                                                                            padding: 8px;
+                                                                                                                font-size: 1em;
+                                                                                                                    border: 1px solid #ddd;
+                                                                                                                        border-radius: 5px;
+                                                                                                                            width: 200px;
+                                                                                                                            }
+
+                                                                                                                            .search-bar img {
+                                                                                                                                width: 20px;
+                                                                                                                                    height: 20px;
+                                                                                                                                        cursor: pointer;
+                                                                                                                                            margin-left: 10px;
+                                                                                                                                            }
+
+                                                                                                                                            main {
+                                                                                                                                                padding: 20px 0;
+                                                                                                                                                }
+
+                                                                                                                                                .livros {
+                                                                                                                                                    display: flex;
+                                                                                                                                                        justify-content: space-around;
+                                                                                                                                                            flex-wrap: wrap;
+                                                                                                                                                            }
+
+                                                                                                                                                            .livro {
+                                                                                                                                                                background-color: #fff;
+                                                                                                                                                                    border: 1px solid #ddd;
+                                                                                                                                                                        border-radius: 8px;
+                                                                                                                                                                            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                                                                                                                                                                                margin-bottom: 20px;
+                                                                                                                                                                                    width: 280px;
+                                                                                                                                                                                        overflow: hidden;
+                                                                                                                                                                                            text-align: center;
+                                                                                                                                                                                            }
+
+                                                                                                                                                                                            .livro img {
+                                                                                                                                                                                                width: 100%;
+                                                                                                                                                                                                    height: auto;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .info-livro {
+                                                                                                                                                                                                        padding: 15px;
+                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                        .info-livro h3 {
+                                                                                                                                                                                                            font-size: 1.5em;
+                                                                                                                                                                                                                color: #333;
+                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                .info-livro p {
+                                                                                                                                                                                                                    font-size: 1em;
+                                                                                                                                                                                                                        color: #666;
+                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                        .detalhes-btn {
+                                                                                                                                                                                                                            background-color: #333;
+                                                                                                                                                                                                                                color: #fff;
+                                                                                                                                                                                                                                    border: none;
+                                                                                                                                                                                                                                        padding: 10px 15px;
+                                                                                                                                                                                                                                            cursor: pointer;
+                                                                                                                                                                                                                                                margin-top: 10px;
+                                                                                                                                                                                                                                                    border-radius: 5px;
+                                                                                                                                                                                                                                                        text-decoration: none;
+                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                        .detalhes-btn:hover {
+                                                                                                                                                                                                                                                            background-color: #555;
+                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                            footer {
+                                                                                                                                                                                                                                                                background-color: #333;
+                                                                                                                                                                                                                                                                    color: #fff;
+                                                                                                                                                                                                                                                                        padding: 10px 0;
+                                                                                                                                                                                                                                                                            text-align: center;
+                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                          .liv
+}
