@@ -1,97 +1,56 @@
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </html><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site de livros de terror">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Livros de Terror</title>
-
-    <!-- Link para a fonte Poppins do Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-</head>
-
 </head>
 <body>
     <header>
-        <h1>Livros de Terror</h1>
         <nav>
-            <ul>
-                <li><a href="#livros">Livros</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#contato">Contato</a></li>
+            <ul class="menu">
+                <li><a href="#" class="logo">TerrorBooks</a></li>
+                <li><a href="#" class="search">🔍 Pesquisa</a></li>
+                <li><a href="#" class="user">👤 Usuário</a></li>
+                <li><a href="#" class="cart">🛒 Carrinho</a></li>
+                <li><a href="#" class="favorites">❤️ Favoritos</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="livros">
-            <h2>Livros de Terror Recomendados</h2>
-            <div class="livros-lista">
-                <div class="livro">
-                    <img src="https://m.media-amazon.com/images/I/51fgjlpcVdL._SY346_.jpg" alt="O Iluminado - Stephen King">
-                    <h3>O Iluminado - Stephen King</h3>
-                    <p>Um dos maiores clássicos do terror psicológico.</p>
-                    <a href="https://www.amazon.com.br/dp/8525071687" target="_blank">Comprar</a>
-                </div>
-                <div class="livro">
-                    <img src="https://m.media-amazon.com/images/I/61CHb9jA4mL._SY346_.jpg" alt="A Casa Infernal - Richard Matheson">
-                    <h3>A Casa Infernal - Richard Matheson</h3>
-                    <p>Uma das casas mais aterrorizantes da literatura.</p>
-                    <a href="https://www.amazon.com.br/dp/8572322542" target="_blank">Comprar</a>
-                </div>
-                <div class="livro">
-                    <img src="https://m.media-amazon.com/images/I/71DQ2hgsFvL._SY346_.jpg" alt="Drácula - Bram Stoker">
-                    <h3>Drácula - Bram Stoker</h3>
-                    <p>A história que moldou o mito do vampiro.</p>
-                    <a href="https://www.amazon.com.br/dp/8532512716" target="_blank">Comprar</a>
-                </div>
-                <div class="livro">
-                    <img src="https://m.media-amazon.com/images/I/81aH7bPbUtL._SY346_.jpg" alt="A Metamorfose - Franz Kafka">
-                    <h3>A Metamorfose - Franz Kafka</h3>
-                    <p>Uma história sobre a mudança e a angústia existencial.</p>
-                    <a href="https://www.amazon.com.br/dp/8525401472" target="_blank">Comprar</a>
-                </div>
-                <div class="livro">
-                    <img src="https://m.media-amazon.com/images/I/91p8-MwB5gL._SY346_.jpg" alt="O Exorcista - William Peter Blatty">
-                    <h3>O Exorcista - William Peter Blatty</h3>
-                    <p>A história assustadora de uma possessão demoníaca.</p>
-                    <a href="https://www.amazon.com.br/dp/8522021420" target="_blank">Comprar</a>
-                </div>
-                <div class="livro">
-                    <img src="https://m.media-amazon.com/images/I/91lm8HhpSPL._SY346_.jpg" alt="O Cemitério - Stephen King">
-                    <h3>O Cemitério - Stephen King</h3>
-                    <p>A história de um cemitério que traz as coisas de volta à vida.</p>
-                    <a href="https://www.amazon.com.br/dp/8522024075" target="_blank">Comprar</a>
-                </div>
+        <section class="hero">
+            <h1>Explore o Mundo dos Livros de Terror</h1>
+            <p>Prepare-se para uma leitura arrepiante...</p>
+        </section>
+
+        <section class="books">
+            <div class="book">
+                <img src="https://via.placeholder.com/200x300/000000/FFFFFF?text=Livro+1" alt="Livro 1">
+                <h2>O Assassino das Sombras</h2>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+                <button class="add-to-favorites">Adicionar aos Favoritos</button>
             </div>
-        </section>
-
-        <section id="sobre">
-            <h2>Sobre o Site</h2>
-            <p>Este site foi criado para os amantes de literatura de terror. Aqui, você encontra recomendações de livros, resenhas e muito mais!</p>
-        </section>
-
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Se você tem alguma sugestão de livro ou comentário, entre em contato conosco!</p>
-            <form>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
+            <div class="book">
+                <img src="https://via.placeholder.com/200x300/000000/FFFFFF?text=Livro+2" alt="Livro 2">
+                <h2>O Ritual das Trevas</h2>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+                <button class="add-to-favorites">Adicionar aos Favoritos</button>
+            </div>
+            <div class="book">
+                <img src="https://via.placeholder.com/200x300/000000/FFFFFF?text=Livro+3" alt="Livro 3">
+                <h2>A Casa do Medo</h2>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+                <button class="add-to-favorites">Adicionar aos Favoritos</button>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Livros de Terror. Todos os direitos reservados.</p>
+        <p>&copy; 2024 TerrorBooks - Todos os direitos reservados</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
-    </html>
-    
+</html>
