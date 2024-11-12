@@ -1,0 +1,129 @@
+/* Resetando algumas configurações padrão */
+* {
+    margin: 0;
+        padding: 0;
+            box-sizing: border-box;
+            }
+
+            /* Estilo do body e fundo */
+            body {
+                font-family: Arial, sans-serif;
+                    background: linear-gradient(to bottom, #000000, #8B0000);
+                        color: #fff;
+                            padding: 0;
+                                margin: 0;
+                                }
+
+                                header {
+                                    background-color: rgba(0, 0, 0, 0.8);
+                                        padding: 20px;
+                                            text-align: center;
+                                            }
+
+                                            header h1 {
+                                                font-size: 2.5rem;
+                                                }
+
+                                                nav ul {
+                                                    list-style-type: none;
+                                                        padding: 10px;
+                                                        }
+
+                                                        nav ul li {
+                                                            display: inline;
+                                                                margin: 0 15px;
+                                                                }
+
+                                                                nav ul li a {
+                                                                    color: #fff;
+                                                                        text-decoration: none;
+                                                                            font-size: 1.2rem;
+                                                                            }
+
+                                                                            nav ul li a:hover {
+                                                                                text-decoration: underline;
+                                                                                }
+
+                                                                                /* Estilos das seções */
+                                                                                main {
+                                                                                    padding: 40px 20px;
+                                                                                    }
+
+                                                                                    h2 {
+                                                                                        font-size: 2rem;
+                                                                                            margin-bottom: 20px;
+                                                                                            }
+
+                                                                                            .livros-lista {
+                                                                                                display: flex;
+                                                                                                    flex-wrap: wrap;
+                                                                                                        gap: 20px;
+                                                                                                            justify-content: center;
+                                                                                                            }
+
+                                                                                                            .livro {
+                                                                                                                background-color: rgba(0, 0, 0, 0.7);
+                                                                                                                    padding: 20px;
+                                                                                                                        border-radius: 10px;
+                                                                                                                            width: 250px;
+                                                                                                                                text-align: center;
+                                                                                                                                }
+
+                                                                                                                                .livro h3 {
+                                                                                                                                    font-size: 1.5rem;
+                                                                                                                                        margin-bottom: 10px;
+                                                                                                                                        }
+
+                                                                                                                                        .livro p {
+                                                                                                                                            font-size: 1rem;
+                                                                                                                                                margin-bottom: 15px;
+                                                                                                                                                }
+
+                                                                                                                                                .livro a {
+                                                                                                                                                    color: #ff0000;
+                                                                                                                                                        font-weight: bold;
+                                                                                                                                                            text-decoration: none;
+                                                                                                                                                            }
+
+                                                                                                                                                            .livro a:hover {
+                                                                                                                                                                text-decoration: underline;
+                                                                                                                                                                }
+
+                                                                                                                                                                /* Estilo de formulário */
+                                                                                                                                                                form {
+                                                                                                                                                                    display: flex;
+                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                            gap: 10px;
+                                                                                                                                                                                max-width: 400px;
+                                                                                                                                                                                    margin: 0 auto;
+                                                                                                                                                                                    }
+
+                                                                                                                                                                                    input[type="email"],
+                                                                                                                                                                                    textarea {
+                                                                                                                                                                                        padding: 10px;
+                                                                                                                                                                                            border: 1px solid #fff;
+                                                                                                                                                                                                border-radius: 5px;
+                                                                                                                                                                                                    background-color: rgba(255, 255, 255, 0.1);
+                                                                                                                                                                                                        color: #fff;
+                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                        button {
+                                                                                                                                                                                                            padding: 10px;
+                                                                                                                                                                                                                background-color: #ff0000;
+                                                                                                                                                                                                                    border: none;
+                                                                                                                                                                                                                        color: #fff;
+                                                                                                                                                                                                                            font-size: 1.2rem;
+                                                                                                                                                                                                                                border-radius: 5px;
+                                                                                                                                                                                                                                    cursor: pointer;
+                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                    button:hover {
+                                                                                                                                                                                                                                        background-color: #8b0000;
+                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                        /* Estilo do rodapé */
+                                                                                                                                                                                                                                        footer {
+                                                                                                                                                                                                                                            text-align: center;
+                                                                                                                                                                                                                                                padding: 20px;
+                                                                                                                                                                                                                                                    background-color: rgba(0, 0, 0, 0.8);
+                                                                                                                                                                                                                                                    }
