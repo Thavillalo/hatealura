@@ -7,7 +7,7 @@
 
 /* Estilo do body e fundo */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif; /* Usando a fonte Poppins */
     background: linear-gradient(to bottom, #000000, #8B0000);
     color: #fff;
     padding: 0;
@@ -18,10 +18,12 @@ header {
     background-color: rgba(0, 0, 0, 0.8);
     padding: 20px;
     text-align: center;
+    font-family: 'Poppins', sans-serif; /* Usando a fonte Poppins */
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); /* Efeito de sombra */
 }
 
 nav ul {
@@ -38,6 +40,8 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1.2rem;
+    font-weight: 600; /* Peso da fonte mais forte para os links */
+    font-family: 'Poppins', sans-serif; /* Usando a fonte Poppins */
 }
 
 nav ul li a:hover {
@@ -52,6 +56,8 @@ main {
 h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif; /* Usando a fonte Poppins nos subtítulos */
+    font-weight: 600; /* Peso mais forte para os subtítulos */
 }
 
 .livros-lista {
@@ -86,6 +92,7 @@ h2 {
 .livro h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    font-weight: 600; /* Peso mais forte para o título dos livros */
 }
 
 .livro p {
@@ -95,7 +102,7 @@ h2 {
 
 .livro a {
     color: #ff0000;
-    font-weight: bold;
+    font-weight: 600; /* Tornando o link mais forte */
     text-decoration: none;
 }
 
@@ -119,6 +126,7 @@ textarea {
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.1);
     color: #fff;
+    font-family: 'Poppins', sans-serif; /* Usando a fonte Poppins nos inputs */
 }
 
 button {
@@ -127,6 +135,7 @@ button {
     border: none;
     color: #fff;
     font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif; /* Usando a fonte Poppins no botão */
     border-radius: 5px;
     cursor: pointer;
 }
