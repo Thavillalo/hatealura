@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background: linear-gradient(180deg, #1a1a1a, #8b0000);
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background: #000;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #f00;
+}
+
+.menu .logo {
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+}
+
+.hero {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px 10px #000, 0 0 25px #8b0000, 0 0 5px #ff0000;
+}
+
+.hero p {
+    font-size: 24px;
+    text-shadow: 2px 2px 10px #000, 0 0 25px #8b0000, 0 0 5px #ff0000;
+}
+
+.books {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book {
+    background: #333;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.book h2 {
+    font-size: 20px;
+    margin: 15px 0;
+    font-family: 'Cinzel', serif;
+}
+
+button {
+    background: #8b0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+    width: 100%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+button:hover {
+    background: #ff0000;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    margin-top: 30px;
+}
